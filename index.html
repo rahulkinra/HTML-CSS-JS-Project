@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+  <!-- unicode characters -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- setting viewport-->
+  <link href="css/cstcss.css" rel="stylesheet">
+  <!-- my stylesheet-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--bootstrap stylesheet-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--javascript coding bootstrap-->
+   <title>cst project</title>
+</head>
+
+<body>
+    <div class="back">
+
+  <div class="container">
+    <!-- container strats-->
+     <header>
+         <div class="row">
+               <div class="col-md-2">
+                    <img class="logo-size" src="img/img1.png" alt="logo"></a>
+
+               </div>
+               <!--col-md-2 close md stand md viewports-->
+               <div class="col-md-10 text-right">
+                <br/><br/>
+                   <h1><b><font face="Impact, Charcoal, sans-serif">Gamazon</font></b></h1>
+               </div>
+               <!--col-md-10 close-->
+        </div>
+        <!--row close-->
+     </header>
+     <!--end of header content-->
+     <main>
+         <!--main content of website starts-->
+         <div class="row">
+              <div class="col-md-12">
+                     <hr class="headhr">
+              </div>
+              <!--col-md-12 close-->
+         </div>
+            
+         <div class="row topnav">
+           <a href="index.html">Home</a>
+           
+           <a href="contact.html">Contact Us</a>
+           <a href="game.html">About</a>
+            <div class="search-container">
+                  <input type="text" value="Google Search.." name="search" id="searchb">
+                  <button type="submit" onclick="myfunction()"><i class="fa fa-search"></i></button>
+            </div>
+         </div>
+         <script>
+          function myfunction()
+          {   var y="https://www.google.com/search?q=";
+              var x=y+document.getElementById("searchb").value;
+              window.open(x);
+          }
+        </script>
+         <!--row closes-->
+        <div class="row">
+             <div class="col-md-12 background text-left">
+                <br/>
+                 <h1 class="headtext" style="text-align:right">TOP GAMES OF 2018</h1>
+                 <br/>                
+                  <iframe width="500" height="315" src="https://www.youtube.com/embed/MLvQMG8ypCw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="right"></iframe>
+              </div>
+              <!--col-md-12 close-->
+         </div>
+         <!--row closes-->
+         <section class="trailers">
+             <div class="row">
+                 <div class="col-md-12">
+                     <h1 class="headertext">TRAILER VIDEOS</h1>
+                 </div>
+                 <!--col-md-12 close-->
+            </div>
+            <!--row close-->
+        </section>
+        <section class="featured-frames">
+            <div class="row images">
+                 <div class="col-md-4 col-sm-6 text-center">
+                    <figure>
+                    <iframe class="frame-size" src="https://www.youtube.com/embed/K-5EdHZ0hBs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </figure>
+                    <a href="nfs.html"> <h2 class="names">NEED FOR SPEED:PAYBACK</h2> </a>
+                 </div>
+                 <div class="col-md-4 col-sm-6 text-center">
+                      <figure>
+                        <iframe class="frame-size" src="https://www.youtube.com/embed/nFBrgeSjj-0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </figure>
+                      <a href ="tomb.html"><h2 class="names">TOMB RAIDER</h2></a>
+                 </div>
+                 <div class="col-md-4 col-sm-6 text-center">
+                       <figure>
+                            <iframe class="frame-size" src="https://www.youtube.com/embed/tKlRN2YpxRE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                       </figure>
+                       <a href="mario.html"><h2 class="names">MARIO KART 8</h2></a>
+                 </div>
+            </div>
+            <!--row ends-->
+            <!--row2 starts-->
+            <div class="row images">
+                 <div class="col-md-4 col-sm-6 text-center">
+                       <figure>
+                        <iframe class="frame-size" src="https://www.youtube.com/embed/Dokpy_KIuyA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                       </figure>
+                 <a href="forza.html"><h2 class="names">FORZA 7</h2></a>
+                 </div>
+                 <div class="col-md-4 col-sm-6 text-center">
+                      <figure>
+                      <iframe class="frame-size" src="https://www.youtube.com/embed/1nkO4N7P-Ys" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </figure>
+                      <a href="counter.html"><h2 class="names">COUNTER STRIKE</h2></a>
+                 </div>
+                <div class="col-md-4 col-sm-6 text-center">
+                      <figure>
+                           <iframe class="frame-size" src="https://www.youtube.com/embed/T2WbkJqqXbc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </figure>
+                      <a href="pop.html"><h2 class="names">PRINCE OF PERSIA</h2></a>
+                </div>
+            </div>
+            <!--row2 ends-->
+        </section>
+     </main>
+   </div>
+ </div>
+  </body>
+  </html>
